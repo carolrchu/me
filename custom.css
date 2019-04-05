@@ -1,0 +1,69 @@
+.heading{
+    font-family: 'EB Garamond', serif;
+    font-size: 4.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: translate(-50%,-50%);
+  }
+
+  .heading-italicized{
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+    font-size: 4.5rem;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transition: translate(-50%,-50%);
+  }
+
+  a:hover{
+    color: #A1A1A1;
+    text-decoration: none;
+  }
+
+  .nav-style1{
+    display: block;
+    padding-left: 4rem;
+    padding-right: 0.75em;
+    font-family: 'Josefin Sans',sans-serif;
+    font-size: 1.25rem;
+    color: #C9C9C9;
+  }
+
+  .nav-style2{
+    display: block;
+    padding-left: 4rem;
+    padding-right: 4em;
+    font-family: 'Josefin Sans',sans-serif;
+    font-size: 1.25rem;
+    color: #C9C9C9;
+  }
+
+  .nav-vertical1{
+    display: block;
+    font-family: 'Josefin Sans',sans-serif;
+    font-size: 1.25rem;
+    color: #C9C9C9;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 7%;
+  }
+  .nav-vertical2{
+    display: block;
+    font-family: 'Josefin Sans',sans-serif;
+    font-size: 1.25rem;
+    color: #C9C9C9;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 7%;
+  }
+  .nav-vertical3{
+    display: block;
+    font-family: 'Josefin Sans',sans-serif;
+    font-size: 1.25rem;
+    color: #C9C9C9;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 7%;
+  }
