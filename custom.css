@@ -1,69 +1,232 @@
-.heading{
-    font-family: 'EB Garamond', serif;
-    font-size: 4.5rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transition: translate(-50%,-50%);
-  }
+.heading {
+  font-family: "EB Garamond", serif;
+  font-size: 4.5rem;
+  transition: translate(-50%, -50%);
+}
 
-  .heading-italicized{
-    font-style: italic;
-    font-family: 'EB Garamond', serif;
-    font-size: 4.5rem;
-    position: absolute;
-    top: 40%;
-    left: 40%;
-    transition: translate(-50%,-50%);
-  }
+.heading-italicized {
+  font-style: italic;
+  font-family: "EB Garamond", serif;
+  font-size: 4.5rem;
+  transition: translate(-50%, -50%);
+  margin-bottom: 30px;
+}
 
-  a:hover{
-    color: #A1A1A1;
-    text-decoration: none;
-  }
+.titles {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  margin-top: 10px;
+}
 
-  .nav-style1{
-    display: block;
-    padding-left: 4rem;
-    padding-right: 0.75em;
-    font-family: 'Josefin Sans',sans-serif;
-    font-size: 1.25rem;
-    color: #C9C9C9;
-  }
+.dramatic-entry {
+  padding-top: 4%;
+  padding-bottom: 16.5%;
+}
 
-  .nav-style2{
-    display: block;
-    padding-left: 4rem;
-    padding-right: 4em;
-    font-family: 'Josefin Sans',sans-serif;
-    font-size: 1.25rem;
-    color: #C9C9C9;
-  }
+.main-bg {
+  background-image: url("images/background-pic.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
 
-  .nav-vertical1{
-    display: block;
-    font-family: 'Josefin Sans',sans-serif;
-    font-size: 1.25rem;
-    color: #C9C9C9;
-    position: absolute;
-    margin-top: 2%;
-    margin-left: 7%;
-  }
-  .nav-vertical2{
-    display: block;
-    font-family: 'Josefin Sans',sans-serif;
-    font-size: 1.25rem;
-    color: #C9C9C9;
-    position: absolute;
-    margin-top: 5%;
-    margin-left: 7%;
-  }
-  .nav-vertical3{
-    display: block;
-    font-family: 'Josefin Sans',sans-serif;
-    font-size: 1.25rem;
-    color: #C9C9C9;
-    position: absolute;
-    margin-top: 8%;
-    margin-left: 7%;
-  }
+ @media (max-width: 996px) {
+
+.main-bg {
+  background-image: none;
+}
+
+}
+
+a:hover {
+  color: #a1a1a1;
+  text-decoration: none;
+}
+
+.nav-style {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.25rem;
+  color: #c9c9c9;
+  margin-right: 24px;
+}
+
+.nav-vertical {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.25rem;
+  color: #c9c9c9;
+
+}
+
+.view-tdlab {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.25rem;
+  color: #c17062;
+}
+
+.view-grow {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.25rem;
+  color: #535c46;
+}
+
+.view-tablestory {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.25rem;
+  color: #786861;
+}
+
+/* *** */
+/* **** PROJECT CARDS ON HOME TERRITORY **** */
+/* *** */
+
+/* These are used on the project cards on the home */
+.project-card {
+  margin:7% 0;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-card.first-card {
+  background-color: #d4b4a6;
+}
+
+.project-card.second-card {
+  background-color: #cacec4;
+}
+
+.project-card.third-card {
+  background-color: #e1ddd3;
+}
+
+.project-card.fourth-card {
+  background-color: #b8c5ca;
+}
+
+/* Project Number */
+h2 {
+  font-family: "EB Garamond", serif;
+  font-weight: 600;
+  font-size: 150px;
+  color: rgba(255, 255, 255, 0.35);
+
+  margin-top: -35px;
+  margin-bottom: -5px;
+}
+
+/* Project Name */
+h3 {
+  font-family: "EB Garamond", serif;
+  font-weight: 600;
+  font-size: 72px;
+  color: white;
+}
+
+/* Description */
+.launch-page-text {
+  width: 250px;
+  overflow-x: wrap;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  color: white;
+  margin-bottom: 1vh;
+}
+
+.heading-text{
+  overflow-x: wrap;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  color: white;
+  margin-bottom: 5vh;
+}
+
+/* Highlights Title */
+h4 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 36px;
+  color: white;
+  padding-top: 15vh;
+}
+
+.project-card ul {
+  padding: 0;
+  list-style: none;
+}
+
+/* List of Highlights */
+.project-card li {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+}
+
+.first-card li {
+  color: #c17062;
+}
+
+.second-card li {
+  color: #535c46;
+}
+
+.third-card li {
+  color: #786861;
+}
+
+.fourth-card li {
+  color: #3f525a;
+}
+
+/* Bumping them a bit to the right */
+p,
+h4,
+li {
+  padding-left: 10px;
+}
+
+/* Images on right side of cards */
+.project-image img {
+  align-self: flex-end;
+}
+
+/* You know what this is :) */
+.choo {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 36px;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.main-choo.choo {
+  color: #C9C9C9;
+  margin-top: 3%;
+  margin-bottom:0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* *** */
+/* **** END PROJECT CARDS **** */
+/* *** */
+
+.heading-img {
+  margin:3%;
+  padding-top: 20px;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  padding-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading-img.first-card {
+  background-color: #d4b4a6;
+}
+
+.heading-img.second-card {
+  background-color: #cacec4;
+}
+
+.heading-img.third-card {
+  background-color: #e1ddd3;
+}
