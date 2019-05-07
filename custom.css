@@ -18,6 +18,13 @@
   margin-top: 10px;
 }
 
+.hello {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 36px;
+  margin-top: 10px;
+  padding-bottom: 1em;
+}
+
 .dramatic-entry {
   padding-top: 4%;
   padding-bottom: 16.5%;
@@ -30,19 +37,54 @@
  }
 
  @media (max-width: 996px) {
-
-.main-bg {
-  background-image: none;
+  .main-bg {
+    background-image: none;
+  }
 }
 
+a.footer-link {
+  width: auto;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  color: #5E5E5E;
 }
 
-a:hover {
+a.nav-vertical:hover {
   color: #a1a1a1;
   text-decoration: none;
 }
 
-.nav-style {
+a.nav-horizontal:hover{
+  color: #a1a1a1;
+  text-decoration: none;
+}
+
+a.choo {
+  color: white;
+  text-decoration: none;
+}
+
+a.view-tdlab:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a.view-workwell:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a.view-grow:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a.view-tablestory:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-horizontal {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.25rem;
   color: #c9c9c9;
@@ -62,16 +104,22 @@ a:hover {
   color: #c17062;
 }
 
-.view-grow {
+.view-workwell {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.25rem;
   color: #535c46;
 }
 
-.view-tablestory {
+.view-grow {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.25rem;
   color: #786861;
+}
+
+.view-tablestory {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.25rem;
+  color: #3f525a;
 }
 
 /* *** */
@@ -83,8 +131,8 @@ a:hover {
   margin:7% 0;
   padding-top: 40px;
   padding-bottom: 25px;
-  padding-left: 7vw;
-  padding-right: 7vw;
+  padding-left: 6vw;
+  padding-right: 6vw;
   margin-left: auto;
   margin-right: auto;
 }
@@ -103,6 +151,12 @@ a:hover {
 
 .project-card.fourth-card {
   background-color: #b8c5ca;
+}
+
+.footer {
+  background-color: #F3F3F3;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Project Number */
@@ -124,14 +178,30 @@ h3 {
   color: white;
 }
 
-/* Description */
 .launch-page-text {
-  width: 250px;
+  width: 70%;
   overflow-x: wrap;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 24px;
+  font-size: 21px;
   color: white;
-  margin-bottom: 1vh;
+}
+
+.title {
+  font-family: "EB Garamond", serif;
+  font-weight: 600;
+  font-size: 50px;
+  color: white;
+  padding: 0;
+}
+
+/* Description */
+.subtitle {
+  overflow-x: wrap;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 4vh;
+  margin-top: 0;
 }
 
 .heading-text{
@@ -177,6 +247,8 @@ h4 {
   color: #3f525a;
 }
 
+
+
 /* Bumping them a bit to the right */
 p,
 h4,
@@ -199,7 +271,7 @@ li {
 
 .main-choo.choo {
   color: #C9C9C9;
-  margin-top: 3%;
+  margin-top: 2%;
   margin-bottom:0;
   margin-left: auto;
   margin-right: auto;
@@ -229,4 +301,95 @@ li {
 
 .heading-img.third-card {
   background-color: #e1ddd3;
+}
+
+.heading-img.fourth-card {
+  background-color: #B8C5CA;
+}
+
+.tdlab-title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  color: #c17062;
+  padding-top: 1em;
+}
+
+.workwell-title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  color: #535c46;
+  padding-top: 1em;
+}
+
+.grow-title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  color: #786861;
+  padding-top: 1em;
+}
+
+.tablestory-title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  color: #3f525a;
+  padding-top: 1em;
+}
+
+
+.text {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 50%;
+  line-height: 1.8em;
+  color: #a1a1a1;
+}
+
+.dialogue {
+  font-family: "EB Garamond", sans-serif;
+  font-size: 18px;
+
+  line-height: 1.8em;
+  color: #7A826D;
+  padding-left: 8em;
+  padding-right: 10em;
+  margin-top: 0;
+}
+
+.quote {
+  font-family: "EB Garamond", sans-serif;
+  font-size: 22px;
+  line-height: 1.4em;
+  font-style: italic;
+  color: #c17062;
+  margin-top: 0;
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+
+}
+
+.footer-title{
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 26px;
+  color: #C9C9C9;
+  padding-top: 2em;
+}
+
+.footer-text{
+  width: auto;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  color: #a1a1a1;
+}
+
+.footer-small-text {
+  width: auto;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  color: #a1a1a1;
+}
+
+hr{
+  color: #a1a1a1;
+  border-width: 0.1em;
+  margin-bottom: 0;
 }

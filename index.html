@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -24,6 +25,10 @@
       href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,600"
       rel="stylesheet"
     />
+
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png"/>
+    <link rel="stylesheet" href="animate.css">
+
     <title>Carol Chu</title>
   </head>
   <body>
@@ -44,7 +49,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container fadeInDown animated">
       <div class="row">
         <div class="main-bg col-10 mx-auto text-center">
 
@@ -72,13 +77,18 @@
                               <a class="nav-vertical" href="#three">three</a>
                             </div>
                           </div>
+                          <div class="row">
+                            <div class="col-12">
+                              <a class="nav-vertical" href="#four">four</a>
+                            </div>
+                          </div>
                         </div>
                       </div>
                 </div>
               <div class="col-6">
                 <div class="row justify-content-end">
-                  <a class="nav-style" href="#">resume</a>
-                  <a class="nav-style" href="about.html">about</a>
+                  <a class="nav-horizontal" href="https://drive.google.com/file/d/1_t2DPdQoEe1aAtgRWZAQkeIIKQ14fbTg/view?usp=sharing">resume</a>
+                  <a class="nav-horizontal" href="about.html">about</a>
                 </div>
               </div>
             </div>
@@ -98,10 +108,10 @@
                 aspiring product designer
               </div>
             <div class="titles">
-              food enthusiast
+              coffee connoisseur
             </div>
             <div class="titles">
-              art fanatic
+              art lover
             </div>
           </div>
         </div>
@@ -129,12 +139,14 @@
       <!-- <h1 class="heading-italicized">Carol Chu.</h1> -->
     </div>
 
+    <!-- cards start here -->
+
     <a name="one"></a>
 
     <div class="container project-card first-card">
       <div class="row">
         <div class="col-12 text-center">
-          <!-- this should be ref that scrols to top -->
+          <!-- this should be ref that scrolls to top -->
           <a class="choo" href="index.html">chu</a>
         </div>
       </div>
@@ -153,9 +165,6 @@
               Personas
             </li>
             <li>
-              Wireframing
-            </li>
-            <li>
               Prototyping
             </li>
             <li>
@@ -166,12 +175,11 @@
             </li>
           </ul>
         </div>
-        <div
-          class="project-image col-sm-0 col-md-4 d-xs-none d-sm-none d-md-flex"
-        >
+
+        <div class="project-image col-sm-0 col-md-4 d-xs-none d-sm-none d-md-flex">
           <img
             src="images/PayPool.png"
-            style="width: 200%; height: auto; postion:absolute; margin-top: 30%; margin-left: 0; padding: 0;"
+            style="width: 200%; height: auto; postion:absolute; margin-top: 20%; margin-left: 0; padding: 0;"
           />
         </div>
       </div>
@@ -188,9 +196,54 @@
       </div>
       <div class="row">
         <div class="col-sm-12 col-md-5 text-left">
+          <h2>3</h2>
+          <h3>workwell</h3>
+          <p class="launch-page-text">Personal Project</p>
+          <a class="view-workwell" style="padding-left: 12px;"href="workwell.html">View Case Study</a>
+          <h4>Skills</h4>
+          <ul>
+            <li>
+              User Research
+            </li>
+            <li>
+              Personas
+            </li>
+            <li>
+              Prototyping
+            </li>
+            <li>
+              Motion Design
+            </li>
+            <li>
+              Storytelling
+            </li>
+          </ul>
+        </div>
+        <div
+          class="project-image col-sm-0 col-md-4 d-xs-none d-sm-none d-md-flex"
+        >
+          <img
+            src="images/workwell-mockups.png"
+            style="width: 200%; height: auto; postion:absolute; margin-top: 20%; margin-left: 0; padding: 0;"
+          />
+        </div>
+      </div>
+    </div>
+
+    <a name="three"></a>
+
+    <div class="container project-card third-card">
+      <div class="row">
+        <div class="col-12 text-center">
+          <!-- this should be ref that scrols to top -->
+          <a class="choo" href="index.html">chu</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-5 text-left">
           <h2>2</h2>
           <h3>Grow</h3>
-          <p class="launch-page-text">First Place at LassondeHacks 2019</p>
+          <p class="launch-page-text">1st Place Winner at HackLassonde 2019</p>
           <a class="view-grow" style="padding-left: 12px;"href="grow.html">View Case Study</a>
           <h4>Skills</h4>
           <ul>
@@ -213,16 +266,16 @@
         >
           <img
             src="images/growmockups.png"
-            style="width: 200%; height: auto; postion:absolute; margin-top: 30%; margin-left: 0; padding: 0;"
+            style="width: 200%; height: auto; postion:absolute; margin-top: 20%; margin-left: 0; padding: 0;"
           />
         </div>
 
       </div>
     </div>
 
-    <a name="three"></a>
+    <a name="four"></a>
 
-    <div class="container project-card third-card">
+    <div class="container project-card fourth-card">
       <div class="row">
         <div class="col-12 text-center">
           <!-- this should be ref that scrols to top -->
@@ -256,11 +309,37 @@
         >
           <img
             src="images/tablestory-mockups.png"
-            style="width: 200%; height: auto; postion:absolute; margin-top: 30%; margin-left: 0; padding: 0;"
+            style="width: 200%; height: auto; postion:absolute; margin-top: 20%; margin-left: 0; padding: 0;"
           />
         </div>
       </div>
     </div>
+
+    <div class="container footer">
+      <div class="row">
+        <div class="col-12">
+          <div class="text-center">
+            <p class="footer-title">Have any further questions or comments?</p>
+            <p class="footer-text">Feel free to reach out to me via the links below!</p>
+            <p class="footer-text" style="padding-bottom: 1.5em;">I'm always down to grab some coffee and talk about everything design.</p>
+            <div class="row">
+              <div class="col-5 text-right">
+                <a class="footer-link" href="https://www.linkedin.com/in/cr3chu/">LinkedIn</a>
+              </div>
+              <div class="col-2 text-center">
+                <a class="footer-link" href="https://medium.com/@cchu2000">Medium</a>
+              </div>
+              <div class="col-5 text-left">
+                <a class="footer-link" href="mailto:cchu2000@gmail.com">Email</a>
+              </div>
+            </div>
+            <p class="footer-small-text" style="padding-top: 3em;">made with ♡ by carol chu</p>
+            <p class="footer-small-text" style="padding-bottom: 3em;">© chu designs 2019</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
