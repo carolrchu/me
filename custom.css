@@ -64,23 +64,43 @@ a.choo {
   text-decoration: none;
 }
 
+a.view-tdlab-large:hover{
+  color: #c17062;
+  text-decoration: none;
+}
+
 a.view-tdlab:hover{
-  color: #ffffff;
+  color: #c17062;
+  text-decoration: none;
+}
+
+a.view-workwell-large:hover{
+  color: #535c46;
   text-decoration: none;
 }
 
 a.view-workwell:hover{
-  color: #ffffff;
+  color: #535c46;
+  text-decoration: none;
+}
+
+a.view-grow-large:hover{
+  color: #786861;
   text-decoration: none;
 }
 
 a.view-grow:hover{
-  color: #ffffff;
+  color: #786861;
+  text-decoration: none;
+}
+
+a.view-tablestory-large:hover{
+  color: #3f525a;
   text-decoration: none;
 }
 
 a.view-tablestory:hover{
-  color: #ffffff;
+  color: #3f525a;
   text-decoration: none;
 }
 
@@ -98,28 +118,60 @@ a.view-tablestory:hover{
 
 }
 
+.view-tdlab-large {
+  font-family: "EB Garamond", serif;
+  font-weight: 600;
+  font-size: 72px;
+  color: white;
+}
+
 .view-tdlab {
+  width: 70%;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 1.25rem;
-  color: #c17062;
+  font-size: 24px;
+  color: white;
+}
+
+.view-workwell-large {
+  font-family: "EB Garamond", serif;
+  font-weight: 600;
+  font-size: 72px;
+  color: white;
 }
 
 .view-workwell {
+  width: 70%;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 1.25rem;
-  color: #535c46;
+  font-size: 24px;
+  color: white;
+}
+
+.view-grow-large {
+  font-family: "EB Garamond", serif;
+  font-weight: 600;
+  font-size: 72px;
+  color: white;
 }
 
 .view-grow {
+  width: 70%;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 1.25rem;
-  color: #786861;
+  font-size: 24px;
+  color: white;
+}
+
+.view-tablestory-large {
+  font-family: "EB Garamond", serif;
+  font-weight: 600;
+  font-size: 72px;
+  color: white;
 }
 
 .view-tablestory {
+  width: 70%;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 1.25rem;
-  color: #3f525a;
+  font-size: 24px;
+  color: white;
 }
 
 /* *** */
@@ -182,7 +234,7 @@ h3 {
   width: 70%;
   overflow-x: wrap;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 21px;
+  font-size: 24px;
   color: white;
 }
 
@@ -392,4 +444,21 @@ hr{
   color: #a1a1a1;
   border-width: 0.1em;
   margin-bottom: 0;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
 }
