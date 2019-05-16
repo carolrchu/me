@@ -397,13 +397,13 @@ li {
 }
 
 .dialogue {
-  font-family: "EB Garamond", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 18px;
 
   line-height: 1.8em;
   color: #7A826D;
-  padding-left: 8em;
-  padding-right: 8em;
+  padding-left: 6em;
+  padding-right: 6em;
   margin-top: 0;
 }
 
